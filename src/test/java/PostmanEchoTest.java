@@ -16,7 +16,7 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("This is expected to be sent back as part of response body"))
+                .body("data", equalTo("This is expected to be sent back as response body"))
         ;
     }
 }
